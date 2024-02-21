@@ -22,7 +22,7 @@ async function checkWeather(city){
     } else if (data.weather[0].main == "Rain"){
         weatherIcon.src = "images/rain.png";
     } else if (data.weather[0].main == "Clouds"){
-        weatherIcon.src = "images/Clouds.png";
+        weatherIcon.src = "images/clouds.png";
     } else if (data.weather[0].main == "Snow"){
         weatherIcon.src = "images/snow.png";
     } else if (data.weather[0].main == "Mist"){
